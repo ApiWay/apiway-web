@@ -96,6 +96,11 @@ export function createRouter () {
             component: Dashboard
           },
           {
+            path: 'dashboard/add',
+            name: 'DashboardAdd',
+            component: Dashboard
+          },
+          {
             path: 'projects',
             name: 'Projects',
             component: Projects
